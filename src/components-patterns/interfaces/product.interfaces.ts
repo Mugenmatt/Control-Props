@@ -25,3 +25,9 @@ export interface ProductCardHOCProps {
     Image: (Props: ProductImageProps) => JSX.Element;
     Buttons: (Props: ProductButtonsProps) => JSX.Element;
 }
+
+export interface InitialValues {
+    count?: number;
+    maxCount?: number;
+}
+
